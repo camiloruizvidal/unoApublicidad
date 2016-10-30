@@ -18,9 +18,9 @@
             App.path = "index.html";
         </script>
         <script src="./javascripts/application.min54ab.js?1474336443"></script>
-        <script src="javascripts/jquery/assets/js/jquery-1.9.1.min.js"></script> 
         <script src="javascripts/jquery/jquery.min.js"></script>
         <script src="javascripts/jquery/owl-carousel/owl.carousel.js"></script>
+        <script src="javascripts/sweetalert-dev.js"></script>
         <script>
             $(document).ready(function ()
             {
@@ -32,6 +32,22 @@
                             itemsDesktopSmall: [979, 3]
 
                         });
+                $('.modal_contact').click(function ()
+                {
+                    swal({
+                        title: "¿Desea saber acerca de nosotros?",
+                        text: "Estamos dispuestos a ayudarle. !",
+                        type: "info",
+                        showCancelButton: false,
+                        confirmButtonColor: "#2196F3",
+                        confirmButtonText: "Nuestros datos",
+                        closeOnConfirm: false
+                    },
+                    function () {
+                        swal("Información", "Direcion: Cra 9 No. 22N-36 Piso 2 B/. Ciudad Jardín, o llamenos al celular 315 5153551", "success");
+                    });
+                });
+
             });
         </script>
         <link rel="stylesheet" type="text/css" href="./stylesheets/application.min54ab.css?1474336443" />
@@ -39,7 +55,7 @@
         <link rel="stylesheet" type="text/css" href="./stylesheets/owl.theme.css" />
         <link rel="stylesheet" type="text/css" href="./stylesheets/owl.carousel.css" />
         <link rel="stylesheet" type="text/css" href="./stylesheets/jquery-photowall.css" />
-
+        <link rel="stylesheet" type="text/css" href="./stylesheets/sweetalert.css" />
     </head>
     <body class="hidden ">
 
@@ -462,7 +478,7 @@
 
             <div class="donate-tile large">
                 <div class="donate-tile medium dark-bg">
-                    <a href="#" target="_blank" class="tile-content rollover do-track-event" data-category="Donate" data-action="CTA Section">
+                    <a href="#" class="modal_contact tile-content rollover do-track-event" data-category="Donate" data-action="CTA Section">
                         <span class="underlined">
                             <span class="rollover-cta">
                                 <svg class="shape-arrow-right">
@@ -856,7 +872,7 @@
                     </svg>
                 </a>
             </div>
-            <a href="https://donate.heartkids.org.nz/" target="_blank" class="popup-footer-donate dark-bg do-track-event" data-category="Donate" data-action="Video Popup">Contactenos</a>
+            <a href="" class="popup-footer-donate dark-bg do-track-event modal_contact" data-category="Donate" data-action="Video Popup">Contactenos</a>
         </footer>
     </section>
     <section class="menu">
