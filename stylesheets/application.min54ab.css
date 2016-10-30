@@ -2072,7 +2072,7 @@ a {
     background-image: url(../images/facts/surgeries-warrior.png)
 }
 .fighter .facts-title.surgeries {
-    background-image: url(../images/facts/surgeries-fighter.png)
+    background-image: url(../images/facts/plotter.jpg)
 }
 .soldier .facts-title.surgeries {
     background-image: url(../images/facts/surgeries-soldier.png)
@@ -2091,7 +2091,16 @@ a {
 }
 .fighter .facts-title.future,
 .soldier .facts-title.future {
-    background-image: url(../images/facts/future.png)
+    background-image: url(../images/facts/design.jpg)
+}
+.fighter .facts-title.photo_video{
+    background-image: url(../images/facts/camera.jpg)
+}
+.fighter .facts-title.sennalitica{
+    background-image: url(../images/facts/sennalitica.jpg)
+}
+.fighter .facts-title.web{
+    background-image: url(../images/facts/web.png)
 }
 .facts-title:after {
     content: "";

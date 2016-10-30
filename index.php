@@ -409,7 +409,7 @@
                     </div>
                     <div class="item">
                         <article>
-                            <h2 class="facts-title future">FOTOGRAFIA Y VIDEO</h2>
+                            <h2 class="facts-title photo_video">FOTOGRAFIA Y VIDEO</h2>
                             <p>
                                 En los medios del lenguaje visual, jamás se podrán apartar estas históricas labores, que ha ido avanzando en tecnología y versatilidad, logrando el posicionamiento que hoy tienen, como unas de las herramientas mas útiles para la comunicación, grandes campañas, y productos sería imposible que salieran al mercado y se lograran masificar si no fuera por la fotografía y el video, por ello nuestra empresa ofrece a sus clientes un departamento calificado.
                             </p>
@@ -417,7 +417,7 @@
                     </div>
                     <div class="item">
                         <article>
-                            <h2 class="facts-title future">SEÑALETICA</h2>
+                            <h2 class="facts-title sennalitica">SEÑALETICA</h2>
                             <p>
                                 Actualmente por requerimientos de ley, información y estética no puede faltar en ninguna empresa los sistemas de señalización, que deben ser manejados con criterios estandarizados sin apartar de ellos la incorporación de imagen global de la empresa, podemos asesorar empresas y entidades en el debido manejo de señales informativas que deben interactuar con sus visitantes y clientes y logra así un flujo ágil y efectivo en cada dependencia. 
                             </p>
@@ -434,7 +434,7 @@
                     </div>
                     <div class="item">
                         <article>
-                            <h2 class="facts-title future">WEB</h2>
+                            <h2 class="facts-title web">WEB</h2>
                             <p>
                                 Que su empresa este a la vanguardia de las comunicaciones e información depende  estrictamente de este sector, la agilidad y efectividad de los sistemas actuales de comunicación hacen vital la presencia de cada empresa en las distintas redes sociales de navegación, por ser el medio de información masivo más grande de la actualidad.
                             </p>
